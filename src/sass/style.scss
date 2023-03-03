@@ -1,0 +1,97 @@
+
+li{
+    list-style: none;
+    font-weight: 600;
+}
+.Carousel{
+    position: relative;
+    .Caption{
+   position: absolute;
+        width: 600px;
+        bottom: 150px;
+        left: 100px;
+        h2{
+         font-weight: 600;
+        }
+     }
+}
+.Box{
+    position: relative;
+    
+    img{
+        transform: scale(1);
+        transition: 0.5s ease-in-out;
+       
+        &:hover{
+           transform: scale(1.1);
+          
+         
+        }
+
+    }
+    
+ 
+   
+
+
+}
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .Title{
+        font-size: 16px;
+        color: rgb(112, 109, 109);
+    }
+    .Text{
+        font-size: 18px;
+        font-weight: 700;
+       
+    }
+}
+.Slider{
+    img{
+        width: 26rem;
+    }
+}
+
+body.light {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    color: #333;
+   
+    .item1{
+        position: absolute;
+        top: 50px;
+       left: 300px;
+       color: #333;
+  
+    }
+    .item2{
+        position: absolute;
+        top: 50px;
+        left: 920px;
+        color: #333;
+    }
+  }
+  body.dark {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: #eee;
+ 
+    .item1{
+        position: absolute;
+        top: 50px;
+       left: 300px;
+       color: #333;
+  
+    }
+    .item2{
+        position: absolute;
+        top: 50px;
+        left: 920px;
+        color:#333;
+    }
+  }
